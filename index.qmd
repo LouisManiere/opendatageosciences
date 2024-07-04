@@ -146,8 +146,10 @@ Une répartition générale [^4] du temps :
 
 -   La préparation du dépôt 75%
 -   Rédaction des métadonnées 15%
--   Datapaper 10%
+-   Datapaper 10% [^5]
 -   Catalogue de métadonnées ? +5%
+
+[^5]: Il existe même des générateurs de datapaper à partir d'entrepôt!
 
 ## Ressources généralistes
 
