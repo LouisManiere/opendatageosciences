@@ -38,7 +38,7 @@ editor: visual
 
 ![](./img/synthese_valorisation.drawio.png){fig-align="center"}
 
-## Les entrepôt en géosciences
+## Les entrepôts en géosciences
 
 ![](./img/entrepots.drawio.png){width="70%" fig-align="center"}
 
@@ -52,17 +52,17 @@ editor: visual
 ::: {.column width="50%"}
 ### Préparation du dépôt
 
--   Sélection des nettoyages des données (fichier unique ou collection de fichiers)
--   Collection :
-    -   structurer l'arborescence avec règles de nommage et fichier de description
-    -   Ajout des métadonnées
+-   Sélection et nettoyage des données (fichier unique ou collection)
+-   Collection ([un exemple ?](https://zenodo.org/records/4291876)) :
+    -   structurer l'arborescence : règles de nommage, fichiers de description...
+    -   fichiers de métadonnées
 -   Métadonnées de l'entrepôt
 :::
 
 ::: {.column width="50%"}
 ### Publication
 
--   Souvent des templates détaillés (reprise des métadonnées)
+-   Templates détaillés disponibles (reprise des métadonnées)
 -   Rédaction du potentiel de réutilisation et description de la création des données
 :::
 :::
@@ -85,7 +85,7 @@ editor: visual
 
 ::: columns
 ::: {.column width="70%"}
-### Entrepôt INEE
+### INEE
 
 [https://data.indores.fr/](https://data.indores.fr/){target="_blank"}
 :::
@@ -97,7 +97,7 @@ editor: visual
 
 ::: columns
 ::: {.column width="70%"}
-### Entrepôt CNRS et générique recherche.data.gouv.fr
+### CNRS et générique recherche.data.gouv.fr
 
 [https://recherche.data.gouv.fr/fr](https://recherche.data.gouv.fr/fr){target="_blank"}
 :::
@@ -132,7 +132,7 @@ Codes :
 
 \
 
-Mais... on peut aussi partager une [présentation ?](https://github.com/LouisManiere/opendatageosciences){target="_blank"}
+Mais on peut aussi partager... une [présentation ?](https://github.com/LouisManiere/opendatageosciences){target="_blank"}
 
 ## Le temps est le mouvement pur de la durée [^3] ⏲️
 
@@ -149,7 +149,7 @@ Une répartition générale [^4] du temps :
 -   Datapaper 10%
 -   Catalogue de métadonnées ? +5%
 
-## Ressources généraliste
+## Ressources généralistes
 
 -   [Science ouverte](https://www.ouvrirlascience.fr/science-ouverte-entrez-dans-le-debat/){target="_blank"}
 
