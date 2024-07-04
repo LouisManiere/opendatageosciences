@@ -1,0 +1,5 @@
+project:
+  title: "opendatageosciences"
+  output-dir: docs
+
+editor: visual

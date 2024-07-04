@@ -134,17 +134,18 @@ Mais... on peut aussi partager une [présentation ?]()
 
 ## Le temps est le mouvement pur de la durée [^3] ⏲️
 
+[^3]: Henri Bergson.
+
 \
 
 Une répartition générale [^4] du temps :
 
-- La préparation du dépôt 75%
-- Rédaction des métadonnées 15%
-- Datapaper 10%
-- Catalogue de métadonnées ? +5%
-
-[^3]: Henri Bergson.
 [^4]: Et donc jamais vraiment juste.
+
+-   La préparation du dépôt 75%
+-   Rédaction des métadonnées 15%
+-   Datapaper 10%
+-   Catalogue de métadonnées ? +5%
 
 ## Ressources généraliste
 
