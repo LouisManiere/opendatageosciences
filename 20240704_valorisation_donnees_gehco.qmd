@@ -1,0 +1,183 @@
+---
+title: "Valorisation des données (et des codes) en géosciences"
+author: "Louis Manière"
+institute: "Université de Tours - E.A 6293 GéoHydrosytèmes COntinentaux (GeHCO)"
+date: "2024-06-27"
+format: 
+  revealjs:
+    theme: custom.scss
+    logo: "./img/logo_gehco.png"
+    css: custom.css
+    slide-number: true
+    show-slide-number: all
+    margin: 0.05
+    width: 1300
+editor: visual
+---
+
+## L'ouverture de la science
+
+::: columns
+::: {.column width="70%"}
+«La France s’engage pour que les résultats de la recherche scientifique soient ouverts à tous, chercheurs, entreprises et citoyens, sans entrave, sans délai, sans paiement» [^1].
+
+-   Faciliter la reproductibilité des résultats
+-   Organiser ses données et leur réutilisation ![](./img/FAIR_data_principles-300x102.jpg){width="40%" fig-align="left"}
+:::
+
+::: {.column width="30%"}
+![](./img/data_podium.jpg){width="100%" fig-align="right"} [^2]
+:::
+:::
+
+[^1]: Plan national pour la science ouverte, 2018.
+
+[^2]: https://www.elsevier.com/connect/open-science-needs-open-minds.
+
+## Comment ça s'organise ?
+
+![](./img/synthese_valorisation.drawio.png){fig-align="center"}
+
+## Les entrepôt en géosciences
+
+![](./img/entrepots.drawio.png){width="70%" fig-align="center"}
+
+## Les éditeurs de datapaper
+
+![](./img/datapapers.drawio.png){fig-align="center"}
+
+## Humm... et concrètement ? 🤔
+
+::: columns
+::: {.column width="50%"}
+### Préparation du dépôt
+
+-   Sélection des nettoyages des données (fichier unique ou collection de fichiers)
+-   Collection :
+    -   structurer l'arborescence avec règles de nommage et fichier de description
+    -   Ajout des métadonnées
+-   Métadonnées de l'entrepôt
+:::
+
+::: {.column width="50%"}
+### Publication
+
+-   Souvent des templates détaillés (reprise des métadonnées)
+-   Rédaction du potentiel de réutilisation et description de la création des données
+:::
+:::
+
+## Exemple PANGAEA
+
+![](./img/pangaea-full.png){width="100%" fig-align="left"}
+
+-   [https://www.pangaea.de/](https://www.pangaea.de/){target="_blank"}
+
+-   [Les templates de données et de métadonnées](https://wiki.pangaea.de/wiki/Best_practice_manuals_and_templates)
+
+\
+
+### Explorons leur "Template for sediment/rock cores" 🧐
+
+## Exemple entrepôt de type dataverse
+
+\
+
+::: columns
+::: {.column width="70%"}
+### Entrepôt INEE
+
+[https://data.indores.fr/](https://data.indores.fr/){target="_blank"}
+:::
+
+::: {.column width="30%"}
+![](./img/Data-InDoRES-logo_CMJN.jpg){width="100%"}
+:::
+:::
+
+::: columns
+::: {.column width="70%"}
+### Entrepôt CNRS et générique recherche.data.gouv.fr
+
+[https://recherche.data.gouv.fr/fr](https://recherche.data.gouv.fr/fr){target="_blank"}
+:::
+
+::: {.column width="30%"}
+![](./img/Logo%20RDG.png){width="100%"}
+:::
+:::
+
+## Le point licence 🔏
+
+Données : licences Creative Commons ![](./img/creative_commons.png){width="3%"}
+
+-   ![](./img/cc_zero.png){width="10%"} CCO : 0 contraintes, tout est permis
+-   ![](./img/cc_by.png){width="10%"} CC BY (ou Etalab 2.0) : Attribution des auteurs, tout est permis
+-   ![](./img/cc_by_nc.png){width="10%"} CC BY-NC : Attribution et pas d'utilisation commerciale
+-   ![](./img/cc_by_sa.png){width="10%"} CC BY-SA : Attribution et obligation de partage en CC BY-SA
+
+Codes :
+
+-   MIT : Attribution des auteurs, tout est permis
+-   GPL/GNU : Attribution et obligation de partage en GPL/GNU
+
+## Le point partage des codes 🤓
+
+\
+
+-   Git : gestionnaire de version
+-   GitHub ![](./img/github.png){width="5%"} /GitLab ![](./img/gitlab.png){width="5%"} : plateformes collaboratives de développement et de partage
+
+[Un exemple?](https://github.com/EVS-GIS/mapdotoro){target="_blank"}
+
+Mais... on peut aussi partager une [présentation ?]()
+
+## Le temps est le mouvement pur de la durée [^3] ⏲️
+
+\
+
+Une répartition générale [^4] du temps :
+
+- La préparation du dépôt 75%
+- Rédaction des métadonnées 15%
+- Datapaper 10%
+- Catalogue de métadonnées ? +5%
+
+[^3]: Henri Bergson.
+[^4]: Et donc jamais vraiment juste.
+
+## Ressources généraliste
+
+-   [Science ouverte](https://www.ouvrirlascience.fr/science-ouverte-entrez-dans-le-debat/){target="_blank"}
+
+-   [Code et logiciels](https://www.ouvrirlascience.fr/science-ouverte-codes-et-logiciels/){target="_blank"}
+
+-   [Données de la recherche](https://www.ouvrirlascience.fr/science-ouverte-donnees-de-la-recherche/){target="_blank"}
+
+-   [Guide doctorants](https://www.ouvrirlascience.fr/passeport-pour-la-science-ouverte-guide-pratique-a-lusage-des-doctorants/){target="_blank"}
+
+-   [Sur l'ouverture et la fermeture des données](https://hal.inrae.fr/hal-03659484/document){target="_blank"}
+
+-   [L'atelier de la données Centre Val de Loire](https://adcvl.pu-cvl.fr/){target="_blank"}
+
+## Ressources entrepôts/datapapers
+
+-   [Les entrepôts de confiance Recherche Data Gouv](https://recherche.data.gouv.fr/fr/entrepots){target="_blank"}
+
+-   [re3data pour rechercher un entrepôt](https://www.re3data.org/){target="_blank"}
+
+-   [Méthodologie de sélection d'un entrepôt thématique](https://www.ouvrirlascience.fr/wp-content/uploads/2023/11/Donnees_EntrepotConfiance_NoteMethodologique.pdf){target="_blank"}
+
+-   [DataTerra : le centre référence thématique en géosciences](https://www.data-terra.org/){target="_blank"}
+
+-   [Doranum : publier un datapaper](https://doranum.fr/data-paper-data-journal/data-papers-quand-comment-pourquoi_10_13143_sx95-cf48/){target="_blank"}
+
+-   [Générateur de datapaper (Recherche Data Gouv / Data In Brief)](https://entrepot.recherche.data.gouv.fr/datapartage-datapapers-web/%3bjsessionid%3ddea01fbcc6f56a6cc59bc6c3b2b6){target="_blank"}
+
+## Ressources licences
+
+-   [Choisir une licence creative commons](https://creativecommons.org/choose){target="_blank"}
+
+-   [Les 6 licences CC par le CIRAD](https://coop-ist.cirad.fr/etre-auteur/utiliser-les-licences-creative-commons/4-les-6-licences-cc)
+
+-   [Choisir une licence logiciel](https://choosealicense.com/){target="_blank"}
