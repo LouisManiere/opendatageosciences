@@ -1,6 +1,4 @@
 .reveal .slide-logo {
-  display: block;
-  position: fixed;
   bottom: unset !important;
   right: unset !important;
   top: 5px;
