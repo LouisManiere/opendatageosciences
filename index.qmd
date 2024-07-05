@@ -2,7 +2,7 @@
 title: "Valorisation des données (et des codes) en géosciences"
 author: "Louis Manière - Journée jeunes chercheurs"
 institute: "Université de Tours - E.A 6293 GéoHydrosytèmes COntinentaux (GeHCO)"
-date: "2024-07-05"
+date: "2024-07-06"
 format: 
   revealjs:
     theme: custom.scss
